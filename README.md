@@ -47,6 +47,8 @@ Este projeto é um desafio proposto para criar um sistema para gerenciar as nota
 
 - **Escalabilidade:** O sistema pode ser facilmente adaptado para incluir mais disciplinas ou funcionalidades, como exportação de dados ou integração com banco de dados.
 - **Validação de Dados:** Não foi implementada uma validação robusta no frontend; espera-se que o usuário insira os dados corretamente.
-- **Melhorias Futuras:** Implementação de testes unitários e refatoração para adicionar padrões de projeto mais robustos, como MVC.
 
-Esse README cobre os pontos principais necessários para entender, instalar e executar o projeto, além de destacar as premissas e decisões importantes que guiam o desenvolvimento do sistema.
+- [Assistir ao vídeo sobre o projeto](https://youtu.be/ixAGH3ExBMI)
+
+
+
