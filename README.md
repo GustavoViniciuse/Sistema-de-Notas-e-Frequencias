@@ -36,7 +36,7 @@ Este projeto é um desafio proposto para criar um sistema para gerenciar as nota
 
 ## Decisões de Projeto
 
-- **Linguagens utilizadas** Foi decidido utilizar HTML e CSS para a estrutura e estilo da interface. O JavaScript foi empregado como backend para manipular os dados diretamente no navegador e armazenar as informações usando `localStorage`, o que simplifica o desenvolvimento e mantém os dados persistentes localmente.
+- **Linguagens utilizadas:** Foi decidido utilizar HTML e CSS para a estrutura e estilo da interface. O JavaScript foi empregado como backend para manipular os dados diretamente no navegador e armazenar as informações usando `localStorage`, o que simplifica o desenvolvimento e mantém os dados persistentes localmente.
 - **Design Responsivo:** O layout foi projetado para ser acessível em diferentes tamanhos de tela.
 - **Separação de Funções:** Funções diferentes para calcular a média das notas, determinar alunos acima da média, e identificar frequências críticas.
 - **Utilização de Estruturas Condicionais Simples:** Para verificar as condições do problema (média, frequência).
