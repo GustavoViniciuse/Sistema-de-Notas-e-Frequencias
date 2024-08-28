@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Notas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1>Sistema de Notas e Frequências</h1>
+  </header>
+
+  <form id="formAluno">
+    <h2> Adicionar Alunos </h2>
+    <input type="text" id="nome" placeholder="Nome do Aluno" required>
+    <input type="number" id="matematica" placeholder="Matemática" step="0.1" required>
+    <input type="number" id="portugues" placeholder="Português" step="0.1" required>
+    <input type="number" id="ciencias" placeholder="Ciências" step="0.1" required>
+    <input type="number" id="historia" placeholder="Historia" step="0.1" required>
+    <input type="number" id="geografia" placeholder="Geografia" step="0.1" required>
+    <input type="number" id="frequencia" placeholder="Frequência (%)" step="0.1" required>
+    <button type="submit"> <b> Adicionar Aluno </b> </button>
+
+  </form>
+  <div class="BTNS">
+
+    <button id="mostrarAlunos"> <b> Atualizar Lista</b> </button>
+    <button id="limparDados"> <b> Limpar Dados </b> </button>
+  </div>
+
+  <div id="alunos">
+    <div id="alunosAcimaMedia" class="seccao">
+      <h2> Alunos com Média Acima da Média da Turma </h2>
+      <div id="listaAcimaMedia"></div>
+    </div>
+
+    <div id="alunosAtencaoEspecial" class="seccao">
+      <h2>Alunos com Frequência Abaixo de 75%</h2>
+      <div id="listaAtencaoEspecial"></div>
+    </div>
+
+    <div id="mediaDisciplinas" class="seccao">
+      <h2>Média da Turma em Cada Disciplina</h2>
+      <div id="listaMediaDisciplinas"></div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Feito por Gustavo Vinicius Elias Souza Silva.</p>
+    <div class="icones">
+      <a href="https://github.com/GustavoViniciuse" target="_blank"><img
+          src="C:\Users\Gusta\OneDrive\Área de Trabalho\Teste DTI\img\GitHub.png" alt="GitHub"></a>
+      <a href="mailto:gustavooelias2@gmail.com"><img
+          src="C:\Users\Gusta\OneDrive\Área de Trabalho\Teste DTI\img\Email.png" alt="Email"></a>
+      <a href="https://www.linkedin.com/in/gustavo-vinicius-823a83265/" target="_blank"><img
+          src="C:\Users\Gusta\OneDrive\Área de Trabalho\Teste DTI\img\Linkedin.png" alt="LinkedIn"></a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

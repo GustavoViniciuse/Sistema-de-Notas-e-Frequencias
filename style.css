@@ -1,0 +1,165 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #48D1CC;
+}
+
+
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 5px solid #FF8C00;
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+input,
+button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background-color: #FF8C00;
+  color: white;
+  padding: 5px;
+  margin: 2px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.BTNS {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+
+}
+
+button:hover {
+  background-color: #FF8C00;
+}
+
+#alunos {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.seccao {
+  margin-bottom: 20px;
+}
+
+.aluno,
+.mediaDisciplina {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  background-color: #f9f9f9;
+}
+
+.aluno p,
+.mediaDisciplina p {
+  margin: 5px 0;
+}
+
+
+#mediaDisciplinas {
+  margin-top: 20px;
+}
+
+#listaMediaDisciplinas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.mediaDisciplina {
+  flex: 1 1 calc(33% - 20px);
+  padding: 15px;
+  margin: 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.mediaDisciplina h3 {
+  margin: 0;
+  color: #FF8C00;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 20px;
+  border-top: 5px solid #FF8C00;
+
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+footer .icones {
+  margin-top: 10px;
+}
+
+footer .icones a {
+  margin: 0 10px;
+}
+
+footer .icones img {
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+footer .icones img:hover {
+  transform: scale(1.1);
+}
