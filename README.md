@@ -1,6 +1,6 @@
 # Sistema de Notas e Frequências
 
-Este projeto é um sistema para o Professor Carlos gerenciar as notas e frequências de seus alunos de maneira eficiente. A aplicação permite a inserção de notas para cinco disciplinas e o registro da frequência em percentual. O sistema calcula automaticamente as médias dos alunos e destaca aqueles que precisam de atenção especial.
+Este projeto é um desafio proposto para criar um sistema para gerenciar as notas e frequências de seus alunos de maneira eficiente. A aplicação permite a inserção de notas para cinco disciplinas e o registro da frequência em percentual. O sistema calcula automaticamente as médias dos alunos e destaca aqueles que precisam de atenção especial.
 
 ## Instruções para Executar o Sistema
 
