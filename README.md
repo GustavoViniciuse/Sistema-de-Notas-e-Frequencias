@@ -14,7 +14,7 @@ Este projeto é um desafio proposto para criar um sistema para gerenciar as nota
 1. **Baixar o projeto:** Clone o repositório do projeto em sua máquina local.
 
     ```bash
-    git clone https://github.com/SeuUsuario/SeuRepositorio.git
+    git clone https://github.com/GustavoViniciuse/Sistema-de-Notas-e-Frequencias.git
     ```
 
 2. **Abrir o arquivo HTML:** Navegue até o diretório onde o projeto foi clonado e abra o arquivo `index.html` em seu navegador.
